@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "revenue",
+        "data": [
+            {
+                "type": "Tablet",
+                "quantity": 120000,
+                "symbol": "€"
+            },
+            {
+                "type": "Smartphone",
+                "quantity": 80000,
+                "symbol": "€"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "impresions",
+        "data": [
+            {
+                "type": "Tablet",
+                "quantity": 30000000,
+                "symbol": ""
+            },
+            {
+                "type": "Smartphone",
+                "quantity": 20000000,
+                "symbol": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "visits",
+        "data": [
+            {
+                "type": "Tablet",
+                "quantity": 480000000,
+                "symbol": "€"
+            },
+            {
+                "type": "Smartphone",
+                "quantity": 120000000,
+                "symbol": "€"
+            }
+        ]
+    }
+]
