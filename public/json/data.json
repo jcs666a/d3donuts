@@ -2,48 +2,45 @@
     {
         "id": 1,
         "title": "revenue",
+        "symbol": "€",
         "data": [
             {
                 "type": "Smartphone",
-                "quantity": 80000,
-                "symbol": "€"
+                "quantity": 80000
             },
             {
                 "type": "Tablet",
-                "quantity": 120000,
-                "symbol": "€"
+                "quantity": 120000
             }
         ]
     },
     {
         "id": 2,
         "title": "impresions",
+        "symbol": "",
         "data": [
             {
-                "type": "Tablet",
-                "quantity": 30000000,
-                "symbol": ""
+                "type": "Smartphone",
+                "quantity": 20000000
             },
             {
-                "type": "Smartphone",
-                "quantity": 20000000,
-                "symbol": ""
+                "type": "Tablet",
+                "quantity": 30000000
             }
         ]
     },
     {
         "id": 3,
         "title": "visits",
+        "symbol": "",
         "data": [
             {
                 "type": "Smartphone",
-                "quantity": 120000000,
-                "symbol": ""
+                "quantity": 120000000
             },
             {
                 "type": "Tablet",
-                "quantity": 480000000,
-                "symbol": ""
+                "quantity": 480000000
             }
         ]
     }

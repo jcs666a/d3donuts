@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Chart from '../../components/Chart/Chart';
+import './mainContainer.scss';
 
 class MainContainer extends Component {
     constructor() {
@@ -30,6 +31,11 @@ class MainContainer extends Component {
                         data={chart.data}
                         id={chart.id}
                         title={chart.title}
+                        symbol={chart.symbol}
+                        width={300}
+                        height={200}
+                        innerRadius={90}
+                        outerRadius={100}
                     />
                 ))}
             </div>

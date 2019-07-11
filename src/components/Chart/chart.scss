@@ -1,0 +1,14 @@
+
+.donut-chart {
+    margin: 15px;
+
+    .donut {
+        transform: scale(0.8) translate(62%, 51%);
+    }
+
+    .main-title {
+        text-transform: uppercase;
+        fill: #7b7b7b;
+    }
+
+}
