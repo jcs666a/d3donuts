@@ -4,13 +4,13 @@
         "title": "revenue",
         "data": [
             {
-                "type": "Tablet",
-                "quantity": 120000,
+                "type": "Smartphone",
+                "quantity": 80000,
                 "symbol": "€"
             },
             {
-                "type": "Smartphone",
-                "quantity": 80000,
+                "type": "Tablet",
+                "quantity": 120000,
                 "symbol": "€"
             }
         ]
@@ -36,14 +36,14 @@
         "title": "visits",
         "data": [
             {
-                "type": "Tablet",
-                "quantity": 480000000,
-                "symbol": "€"
-            },
-            {
                 "type": "Smartphone",
                 "quantity": 120000000,
-                "symbol": "€"
+                "symbol": ""
+            },
+            {
+                "type": "Tablet",
+                "quantity": 480000000,
+                "symbol": ""
             }
         ]
     }

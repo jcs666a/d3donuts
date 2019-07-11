@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DonutChart from '../../components/DonutChart/DonutChart';
+import Chart from '../../components/Chart/Chart';
 
 class MainContainer extends Component {
     constructor() {
         super();
-
         this.state = {
             chartData: []
         }
@@ -26,7 +25,7 @@ class MainContainer extends Component {
         return (
             <div className="chart-container">
                 {chartData.map(chart => (
-                    <DonutChart
+                    <Chart
                         key={`donut-chart-${chart.id}`}
                         data={chart.data}
                         id={chart.id}
